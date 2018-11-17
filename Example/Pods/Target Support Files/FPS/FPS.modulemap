@@ -1,0 +1,6 @@
+framework module FPS {
+  umbrella header "FPS-umbrella.h"
+
+  export *
+  module * { export * }
+}
