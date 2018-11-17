@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FPS_Example' do
+  pod 'FPS', :path => '../'
+
+  target 'FPS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
